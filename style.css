@@ -3,20 +3,25 @@
     padding: 0;
 }
 
-nav {
+#home {
     background-color: #00bc2f;
     /* padding: 10px 20px; */
     /* Adjust padding for smaller screens */
     /* Adjust margin for smaller screens */
     /* width: auto; */
+    margin: 10 10px 10px 10px;
+    padding-left: 20;
+    border-radius: 15px;
     width: 100%;
     max-width: 100%;
     height: auto;
-    margin-left: auto;
-    margin-right: 0;
     flex-wrap: wrap;
     flex-direction: column;
     position: fixed; /* Sticky/fixed navbar */
+}
+
+h2, p, label {
+    padding-left: 20px;
 }
 
 .profile_name {
@@ -24,7 +29,7 @@ nav {
     font-size: 20px;
     font-style: normal;
     /* Adjust padding for smaller screens */
-    padding: 10px;
+    padding: 10px 10px 0px 10px;
 
 }
 .hamnav {
@@ -32,6 +37,7 @@ nav {
     font-size: 14px;
     padding-bottom: 10px;
     padding-left: 10px;
+    padding-right: 15px;
     margin-left: 0;
     word-wrap: break-word;
     width: auto;
@@ -87,8 +93,8 @@ label[for="hamburger"] {
 
 .main {
     display: flex;
-    margin: 20px;
-    margin: 0 auto;
+    margin: 0 10px;
+    
     /* This centers the block-level element horizontally */
     align-items: center;
     background-image: url('https://www.colonialapts4rent.com/wp-content/uploads/2019/08/01-Colonial-Village-Slider-1.jpg');
@@ -98,16 +104,14 @@ label[for="hamburger"] {
     height: 900px;
     border-radius: 15px;
     box-shadow: 0 5px 10px 0 #00000070;
-    
     background-color: rgba(162, 174, 174, 0.639);
     color: white;
 }
 
 .main1 {
     display: flex;
-    margin: 20px;
+    margin: 10px;
     justify-content: center;
-    margin: 0 auto;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: stretch;
@@ -116,16 +120,15 @@ label[for="hamburger"] {
     height: 900px;
     border-radius: 15px;
     box-shadow: 0 5px 10px 0 #00000070;
-    
     background-color: rgba(162, 174, 174, 0.639);
     color: rgb(10, 10, 10);
 }
 
 .main2 {
     display: stretch;
-    margin: 20px;
+    margin: 10px;
     justify-content: center;
-    margin: 0 auto;
+    border-radius: 15px;
     background-size: cover;
     background-repeat: no-repeat;
     /* This centers the block-level element horizontally */
@@ -161,6 +164,10 @@ label[for="hamburger"] {
     background-color: #00bc2fd6;
     color: white;
     padding: 10px;
+}
+
+hr {
+    margin: 20px 10px 20px 10px;
 }
 
 .iconbutton {
