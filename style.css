@@ -4,7 +4,7 @@
 }
 
 #home {
-    background-color: #00bc2f;
+    background-color: #445f76ca;
     /* padding: 10px 20px; */
     /* Adjust padding for smaller screens */
     /* Adjust margin for smaller screens */
@@ -56,7 +56,7 @@ h2, p, label {
 #hamitems {
     /* Hide the menu items initially */
     display: none;
-    background-color: #038e1c;
+    background-color: #445f76b1;
     /* Match the background color of nav */
     width: 100%;
     max-width: 100%;
@@ -92,9 +92,8 @@ label[for="hamburger"] {
 }
 
 .main {
-    display: flex;
     margin: 0 10px;
-    
+    display:flex;
     /* This centers the block-level element horizontally */
     align-items: center;
     background-image: url('https://www.colonialapts4rent.com/wp-content/uploads/2019/08/01-Colonial-Village-Slider-1.jpg');
@@ -109,7 +108,7 @@ label[for="hamburger"] {
 }
 
 .main1 {
-    display: flex;
+    display: stretch;
     margin: 10px;
     justify-content: center;
     background-repeat: no-repeat;
@@ -129,8 +128,6 @@ label[for="hamburger"] {
     margin: 10px;
     justify-content: center;
     border-radius: 15px;
-    background-size: cover;
-    background-repeat: no-repeat;
     /* This centers the block-level element horizontally */
     background-image: url('https://photofocus.com/wp-content/uploads/2016/06/2597-0037-composite.jpg');
     height: 900px;
@@ -139,10 +136,12 @@ label[for="hamburger"] {
 
 .container {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    flex-direction: row;
+    justify-content:center;
+    /* flex-direction: column; */
+    /* justify-content: center;
+    align-items: center; */
+    /* text-align: center; */
     margin: 0 auto;
     padding: 20px;
     font-size: 22px;
@@ -161,7 +160,7 @@ label[for="hamburger"] {
     white-space: nowrap; /* Prevent wrapping */
     border-radius: 10px;
     box-shadow: 0 5px 10px 0 #00000070;
-    background-color: #00bc2fd6;
+    background-color: #445f76ca;
     color: white;
     padding: 10px;
 }
