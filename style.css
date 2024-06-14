@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #00bc2f;
+    /* padding: 10px 20px; */
+    /* Adjust padding for smaller screens */
+    /* Adjust margin for smaller screens */
+    /* width: auto; */
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: 0;
+    flex-wrap: wrap;
+    flex-direction: column;
+    position: fixed; /* Sticky/fixed navbar */
+}
+
+.profile_name {
+    color: white;
+    font-size: 20px;
+    font-style: normal;
+    /* Adjust padding for smaller screens */
+    padding: 10px;
+
+}
+.hamnav {
+    color: white;
+    font-size: 14px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin-left: 0;
+    word-wrap: break-word;
+    width: auto;
+}
+
+.hamlabel {
+    font-size: 1.7em;
+    cursor: pointer;
+}
+
+#hamburger {
+    display: none;
+    /* Hide the checkbox */
+}
+
+#hamitems {
+    /* Hide the menu items initially */
+    display: none;
+    background-color: #038e1c;
+    /* Match the background color of nav */
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    padding: 3px;
+    margin-top: 10px;
+}
+
+.hamnav a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.hamnav a:hover {
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+/* Show menu items when checkbox is checked: display row */
+#hamburger:checked~#hamitems {
+    display: inline-flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+/* enlarging the hamburger manu! */
+label[for="hamburger"] {
+    /* Replace XX with your desired size */
+    font-size: 1.428572em;
+}
+
+.main {
+    display: flex;
+    margin: 20px;
+    margin: 0 auto;
+    /* This centers the block-level element horizontally */
+    align-items: center;
+    background-image: url('https://www.colonialapts4rent.com/wp-content/uploads/2019/08/01-Colonial-Village-Slider-1.jpg');
+    background-repeat: no-repeat;
+    /* Prevent background video from repeating */
+    background-size: cover;
+    height: 900px;
+    border-radius: 15px;
+    box-shadow: 0 5px 10px 0 #00000070;
+    
+    background-color: rgba(162, 174, 174, 0.639);
+    color: white;
+}
+
+.main1 {
+    display: flex;
+    margin: 20px;
+    justify-content: center;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: stretch;
+    /* This centers the block-level element horizontally */
+    background-image: url('https://rentpath-res.cloudinary.com/$img_current/t_3x2_webp_2xl/t_unpaid/108eca5c456a57983f542ed629fd8b67');
+    height: 900px;
+    border-radius: 15px;
+    box-shadow: 0 5px 10px 0 #00000070;
+    
+    background-color: rgba(162, 174, 174, 0.639);
+    color: rgb(10, 10, 10);
+}
+
+.main2 {
+    display: stretch;
+    margin: 20px;
+    justify-content: center;
+    margin: 0 auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* This centers the block-level element horizontally */
+    background-image: url('https://photofocus.com/wp-content/uploads/2016/06/2597-0037-composite.jpg');
+    height: 900px;
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+    font-size: 22px;
+}
+
+.container h1 {
+    /* display: inline;
+    justify-content: middle;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px 0 #00000070;
+    width: 50%;
+    background-color: #00bc2f;
+    color: white;
+    padding: 10px; */
+    display: inline-block; /* Display the h1 in one line */
+    white-space: nowrap; /* Prevent wrapping */
+    border-radius: 10px;
+    box-shadow: 0 5px 10px 0 #00000070;
+    background-color: #00bc2fd6;
+    color: white;
+    padding: 10px;
+}
+
+.iconbutton {
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    right: 3%;
+    bottom: 3%;
+    cursor: pointer;
+    transition: width 1.2s, height 1.2s, transform 1.2s;
+}
+
+.iconbutton:hover {
+    transform: rotate(360deg);
+    background: rgb(32, 32, 130);
+}
+
+#copy_right {
+    font-size: 11px;
+    text-align: center;
+    /* Center align copy right text */
+}
